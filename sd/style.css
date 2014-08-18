@@ -1,0 +1,117 @@
+body.night{
+	background-color: #333
+}
+
+.bulb-container{
+	margin: 10px auto;
+	width: 180px;
+}
+
+.bulb-container .light{
+	list-style-type: none;
+	margin: 0px;
+	overflow: auto;
+	padding: 0px;
+}
+
+.bulb-container .light li{
+	float: left;
+	height: 350px; 
+	margin: 0px;
+	width: 84px;
+}
+
+.bulb-container .light li div{;
+	-moz-box-shadow:    inset 0 0 10px #777;
+  	-webkit-box-shadow: inset 0 0 10px #777;
+  	box-shadow:         inset 0 0 10px #777;
+
+  	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box;    
+	box-sizing: border-box;        
+
+	background: white;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	height: 350px; 
+	margin: 0px 6px;
+	position: absolute;
+	width: 80px;
+
+	-webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+    -kthtml-transition: all 1s linear;
+    transition: all 1s linear;
+}
+
+.bulb-container .light li div small{
+	color: #888;
+	display: block;\
+	font-size: 18px;
+	transform:rotate(-90deg);
+	-ms-transform:rotate(-90deg); /* IE 9 */
+	-webkit-transform:rotate(-90deg); /* Opera, Chrome, and Safari */
+	width: 210px;	
+}
+
+.bulb-container .thread{
+	background-color: #aaa;
+	list-style-type: none;
+	margin: 0px 3px;
+	padding: 0px;
+}
+
+.bulb-container .thread li{
+	background-color: #ccc;
+	border-radius: 30px;
+	height: 10px;
+	margin: 10px -5px;
+	position: relative;
+
+	transform:rotate(-3deg);
+	-ms-transform:rotate(-3deg);
+	-webkit-transform:rotate(-3deg);
+}
+
+.bulb-container .thread li:first-child{
+	margin-top: 0px;
+}
+
+.bulb-container .thread li:last-child{
+	margin-bottom: 0px;
+}
+
+.bulb-container .plug{
+	background-color: #aaa;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	height: 30px;
+	margin: 0px 3px;
+}
+
+.bulb-container .plug-in{
+	background-color: #555;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	margin: 0 auto;
+	height: 15px;
+	width: 100px;
+}
+
+.night .light li div{
+	-moz-box-shadow:    0px -6px 38px 15px #ddd;
+	-webkit-box-shadow: 0px -6px 38px 15px #ddd;
+	box-shadow:         0px -6px 38px 15px #ddd;
+}
+
+
+@media (min-width: 768px) {
+
+	.bulb-container{
+		margin: 80px auto;
+	}
+}
